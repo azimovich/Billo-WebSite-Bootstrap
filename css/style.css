@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800;900&display=swap");
+
+/* * {
+  padding: 0;
+  margin: 0 !important;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.7;
+  margin-bottom: 0px !important;
+}
+
+main {
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900 !important;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
+  z-index: -1;
+}
+
+.nav-link {
+  text-decoration: none;
+  transition: all 0.4s ease;
+  font-weight: 800;
+}
+
+.navbar {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+.bg-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 14px 22px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.btn-main {
+  background: linear-gradient(to right, #00e0fe, #1107fe);
+  border-radius: 100px;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+.section-intro {
+  margin-bottom: 40px;
+}
+
+.section-intro .divider {
+  margin: 16px auto;
+  height: 5px;
+  width: 70px;
+  border-radius: 15px;
+  background: linear-gradient(to right, #00e0fe, #1107fe);
+}
+
+.service .service-img {
+  position: relative;
+}
+
+.service .service-img .icon {
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90px;
+  height: 90px;
+  color: #fff;
+  background: linear-gradient(to right, #00e0fe, #1107fe);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service .service-img .icon i {
+  font-size: 36px;
+}
+
+.play-btn {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(#00e0fe, #1107fe);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+.play-btn i {
+  font-size: 32px;
+}
+
+.about-section,
+.connters-section {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features .icon i {
+  background: linear-gradient(#00e0fe, #1107fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+}
+
+.review {
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+}
+
+.review .person {
+  align-items: center;
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.review .person img {
+  height: 75px;
+  width: 75px;
+  border-radius: 100px;
+}
+
+.review .stars i {
+  color: orange;
+  font-size: 16px;
+}
+
+.link-1 {
+  color: #242424;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.link-1:hover {
+  color: #007bfe;
+}
+
+form .form-control {
+  border-radius: 0;
+  background-color: transparent;
+}
+
+form .form-control:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+form input.form-control {
+  height: 54px;
+}
+
+form .form-control::placeholder {
+  color: #fff;
+}
+
+footer {
+  background: linear-gradient(to right, #00e0fe, #1107fe);
+}
+
+.icon-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.icon-link:hover{
+  color: #fff;
+}
